@@ -6,15 +6,15 @@ Each project demonstrates different concepts using **HTML**, **CSS**, **JavaScri
 ---
 
 ## 📁 Folder Structure
-<details>
-web-dev-projects/
-│
-├── DOM_Events/ → Projects based on DOM manipulation and event handling
-├── Asynchronous/ → Projects using asynchronous JS (APIs, fetch, etc.)
-├── React/ → React-based mini apps (coming soon)
-├── Auth/ → Authentication examples (coming soon)
+
+web-dev-projects/<br>
+│<br>
+├── DOM_Events/ → Projects based on DOM manipulation and event handling<br>
+├── Asynchronous/ → Projects using asynchronous JS (APIs, fetch, etc.)<br>
+├── React/ → React-based mini apps (coming soon)<br>
+├── Auth/ → Authentication examples (coming soon)<br>
 └── Backend/ → Node.js / Express-based apps (coming soon)
-</details>
+
 ---
 
 ## 🚀 Running the Projects
