@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+  </head>
+  <body class="min-h-screen bg-black p-8">
+    <div class="max-w-md mx-auto">
+      <!-- Header -->
+      <h1 class="text-3xl font-bold text-white text-center mb-8">Todo App</h1>
+
+      <!-- Add Todo -->
+      <div class="flex space-x-2 mb-6">
+        <input
+          type="text"
+          id="todo_input"
+          placeholder="Add a new todo..."
+          class="flex-1 px-4 py-3 bg-neutral-800 border border-neutral-600 rounded-lg text-white placeholder-neutral-400 outline-none focus:border-neutral-400"
+        />
+        <button
+          id="addTask"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg transition-colors duration-200 flex items-center justify-center"
+        >
+          <!-- Plus Icon SVG -->
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+        </button>
+      </div>
+
+  
+      <div id="taskList" class="space-y-2">
+        
+      </div>
+
+     
+    <!-- <div id="optional" class="text-center py-12">
+      <p class="text-neutral-500 text-lg">No todos yet. Add one above!</p>
+    </div> -->
+   </div>
+  </body>
+  <script src="script.js"></script>
+</html>
