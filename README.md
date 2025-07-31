@@ -1,0 +1,61 @@
+# 🌐 Web Dev Projects
+
+This repository contains a collection of web development projects organized by category.  
+Each project demonstrates different concepts using **HTML**, **CSS**, **JavaScript**, **TailwindCSS**, **React**, and backend technologies.
+
+---
+
+## 📁 Folder Structure
+
+web-dev-projects/
+│
+├── DOM_Events/ → Projects based on DOM manipulation and event handling
+├── Asynchronous/ → Projects using asynchronous JS (APIs, fetch, etc.)
+├── React/ → React-based mini apps (coming soon)
+├── Auth/ → Authentication examples (coming soon)
+└── Backend/ → Node.js / Express-based apps (coming soon)
+
+---
+
+## 🚀 Running the Projects
+
+### For Pure HTML/JS/CSS Projects:
+1. Open the `index.html` file in your browser  
+2. No server needed
+
+### For React or Backend Projects:
+1. Follow the instructions inside the individual project’s `README.md`  
+2. Run using `npm install` and `npm start` or similar
+
+---
+
+## 📚 Projects Index
+
+### 📦 DOM_Events
+- [ToDo List](DOM_Events/ToDoList)
+- [Notes App](DOM_Events/NotesApp)
+- [Calculator App](DOM_Events/CalculatorApp)
+- [Book List Manager](DOM_Events/BookListManager)
+- [Daily Habit Tracker](DOM_Events/DailyHabitTracker)
+- [Basic Calendar Viewer](DOM_Events/BasicCalendarTaskViewer)
+- [Simple Dice Game](DOM_Events/SimpleDiceGame)
+
+### 🌐 Asynchronous
+- [Weather App](Asynchronous/WeatherApp)
+- [Movie Search App](Asynchronous/MovieSearchApp)
+- [Currency Exchange App](Asynchronous/CurrencyExchangeApp)
+- [GitHub Profile Finder](Asynchronous/GithubProfileFinder)
+- [Dictionary App](Asynchronous/DictionaryApp)
+
+---
+
+## 📌 Contributing
+
+This is a personal learning archive, but feel free to fork and explore.
+
+---
+
+## 📧 Contact
+
+Created by **Zakryia Bukhari**  
+Feel free to reach out or suggest improvements!
