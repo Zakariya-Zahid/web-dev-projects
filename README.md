@@ -6,7 +6,7 @@ Each project demonstrates different concepts using **HTML**, **CSS**, **JavaScri
 ---
 
 ## 📁 Folder Structure
-
+<details>
 web-dev-projects/
 │
 ├── DOM_Events/ → Projects based on DOM manipulation and event handling
@@ -14,7 +14,7 @@ web-dev-projects/
 ├── React/ → React-based mini apps (coming soon)
 ├── Auth/ → Authentication examples (coming soon)
 └── Backend/ → Node.js / Express-based apps (coming soon)
-
+</details>
 ---
 
 ## 🚀 Running the Projects
