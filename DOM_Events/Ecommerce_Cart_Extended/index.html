@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="nav_header">
+        <div id="logo">
+          <h2>E-Cart</h2>
+        </div>
+        <ul id="nav_links_container">
+          <li>Home</li>
+          <li>Shop</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <div id="action_btn">
+          <button>Login</button>
+          <button>Register</button>
+        </div>
+      </nav>
+    </header>
+
+    <section id="shop">
+      <h2>Shop ></h2>
+      <div id="product_card">
+        <!-- Dynamic -->
+      </div>
+    </section>
+   <div id="showCart" class="hidden">
+  <div class="cart_container hidden" id="cart_container">
+    <div class="cart_header">
+      <h3>Your Cart</h3>
+      <button id="close-cart" title="Close Cart">❌</button>
+    </div>
+    <div id="cart-items" class="cart_items_list"></div>
+    <div class="cart_total" id="cart-total">
+      <p>Total: <span id="total-price">$0.00</span></p>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</html>
