@@ -39,6 +39,8 @@ web-dev-projects/<br>
 - [EcommerceCart](DOM_Events/EcommerceCart)
 - [Ecommerce_Cart_Extended](DOM_Events/Ecommerce_Cart_Extended)
 - [ExpenseTracker](DOM_Events/ExpenseTracker)
+- [QuizApp](DOM_Events/QuizApp)
+
 
 ### 🌐 Asynchronous
 - [Weather App](Asynchronous/WeatherApp)
