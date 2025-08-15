@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #121212;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00ffae;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.search-btn {
+  padding: 12px 20px;
+  background-color: #00ffae;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #00cc8c;
+}
+
+.movie-card {
+  display: flex;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 255, 174, 0.2);
+}
+
+.movie-poster {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.movie-details {
+  padding: 20px;
+  flex: 1;
+}
+
+.movie-title {
+  font-size: 24px;
+  color: #f88a7c;
+  margin-bottom: 10px;
+}
+
+.movie-year,
+.movie-rating,
+.movie-plot,
+.movie_runtime,
+.movie_country,
+.movie_boxoffice {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    color: rgb(197, 53, 53);
+}
+.hidden{
+    display: none;
+}
+
+#movie_year{
+  color: rgb(93, 135, 250);
+  font-weight: normal;
+}
+#movie_rating{
+  color: rgb(77, 192, 144);
+  font-weight: normal;
+}
+#movie_plot{
+  color: rgb(250, 163, 64);
+  font-weight: normal;
+}
+#movie_runtime{
+  color: yellowgreen;
+  font-weight: normal;
+}
+#movie_country{
+  color: rgb(83, 138, 240);
+  font-weight: normal;
+}
+#movie_boxoffice{
+  color: rgb(44, 192, 51);
+  font-weight: normal;
+}
