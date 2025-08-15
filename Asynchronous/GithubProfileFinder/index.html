@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Profile Finder</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f2f2f2;
+        color: #333;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #24292e;
+        margin-bottom: 2rem;
+      }
+
+      .search-box {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 2rem;
+      }
+
+      .search-box input {
+        flex: 1;
+        padding: 0.8rem 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+
+      .search-box button {
+        padding: 0.8rem 1.2rem;
+        background: #24292e;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .profile {
+        text-align: center;
+      }
+
+      .avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+      }
+
+      .username {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .bio {
+        font-style: italic;
+        margin: 0.5rem 0 1rem 0;
+        color: #555;
+      }
+      .profilelink {
+        cursor: pointer;
+        color: rgb(24, 103, 206);
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+      .stats {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1.5rem;
+      }
+
+      .stat {
+        background: #f9f9f9;
+        padding: 1rem;
+        border-radius: 8px;
+        width: 30%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+
+      .stat h3 {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+
+      .stat p {
+        margin: 0.5rem 0 0 0;
+        font-size: 1rem;
+      }
+      .hidden {
+        display: none;
+      }
+      .error {
+        display: flex;
+        justify-content: center;
+        color: rgb(184, 61, 61);
+      }
+
+      @media (max-width: 480px) {
+        .stats {
+          flex-direction: column;
+          gap: 1rem;
+        }
+        .stat {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>GitHub Profile Finder</h1>
+
+      <div class="search-box">
+        <input
+          id="search_box"
+          type="text"
+          placeholder="Enter GitHub username"
+        />
+        <button id="search_btn">Search</button>
+      </div>
+      <div class="hidden" id="error_message_container">
+        <p class="error" id="error_message"></p>
+      </div>
+      <div id="profile_container" class="profile">
+        <img src="" alt="GitHub Avatar" id="profile_img" class="avatar" />
+        <div id="username" class="username"></div>
+        <div id="bio" class="bio"></div>
+        <div id="profile_link" class="profilelink"></div>
+        <div class="stats">
+          <div class="stat">
+            <h3>Repos</h3>
+            <p id="repo_count"></p>
+          </div>
+          <div class="stat">
+            <h3>Followers</h3>
+            <p id="follower_count"></p>
+          </div>
+          <div class="stat">
+            <h3>Following</h3>
+            <p id="following_count"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
