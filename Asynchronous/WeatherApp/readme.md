@@ -57,7 +57,7 @@ MovieSearchApp/<br>
 ## ⚡ How to Run Locally
 
 1. Get a free API key from [OpenWeatherMap](https://openweathermap.org/api)  
-2. Replace `process.env.OPEN_WEATHER_API_KEY` in `script.js` with your actual API key, or configure your environment variables if running via a server  
+2. Replace `API_Key` in `script.js` with your actual API key 
 3. Open the `index.html` file in your browser  
 4. Enter a city name and click **Get Weather** to view the weather information
 
