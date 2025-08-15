@@ -38,4 +38,5 @@ DOM_Events/<br>
 └── SimpleDiceGame/<br>
 └── EcommerceCart/<br>
 └── Ecommerce_Cart_Extended/<br>
+└── ExpenseTracker/<br>
 Each project includes its own `README.md` (optional) with more detailed usage and screenshots if available.
