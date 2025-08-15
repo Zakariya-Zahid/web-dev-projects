@@ -34,7 +34,7 @@ NotesApp/<br>
 
 ---
 ## 📸 Preview
-
+![alt text](image.png)
 
 ---
 
