@@ -36,6 +36,7 @@ web-dev-projects/<br>
 - [Notes App](DOM_Events/NotesApp)
 - [Calculator App](DOM_Events/CalculatorApp)
 - [Simple Dice Game](DOM_Events/SimpleDiceGame)
+- [EcommerceCart](DOM_Events/EcommerceCart)
 
 ### 🌐 Asynchronous
 - [Weather App](Asynchronous/WeatherApp)
