@@ -9,6 +9,8 @@ This folder contains mini projects built using **vanilla JavaScript** focused on
 - **NotesApp** – Create, edit, and delete notes using local storage.
 - **ToDoList** – Task manager with add/delete and mark-as-done features.
 - **SimpleDiceGame** – A two-player dice game with random number generation.
+- **Ecommerce Cart** – A basic Ecommerce cart Functionality.
+
 
 ## 🧠 Concepts Practiced
 
@@ -33,5 +35,6 @@ DOM_Events/<br>
  ├── NotesApp/<br>
  ├── ToDoList/<br>
  └── SimpleDiceGame/<br>
+ └── EcommerceCart/<br>
 
 Each project includes its own `README.md` (optional) with more detailed usage and screenshots if available.
