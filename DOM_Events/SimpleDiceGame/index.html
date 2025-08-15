@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gray-900 text-white min-h-screen flex items-center justify-center p-4"
+  >
+    <div
+      class="bg-gray-800 p-6 rounded-2xl shadow-lg w-full max-w-3xl text-center"
+    >
+      <h1 class="text-3xl font-bold mb-6">Simple Dice Game</h1>
+
+      <div class="grid grid-cols-2 gap-4 mb-6">
+        <!-- Player 1 -->
+        <div class="bg-gray-700 p-4 rounded-xl">
+          <h2 class="text-xl font-semibold mb-2">Player 1</h2>
+          <div id="player1_img" class="text-6xl mb-2">
+            <!-- <img src="images/one.png" alt=""> -->
+          </div>
+          <p id="pl1_score" class="text-lg">
+            Score: <span class="font-bold">0</span>
+          </p>
+        </div>
+
+        <!-- Player 2 -->
+        <div class="bg-gray-700 p-4 rounded-xl">
+          <h2 class="text-xl font-semibold mb-2">Player 2</h2>
+          <div id="player2_img" class="text-6xl mb-2">
+            <!-- <img src="images/two.png" alt=""> -->
+          </div>
+
+          <p id="pl2_score" class="text-lg">
+            Score: <span class="font-bold">0</span>
+          </p>
+        </div>
+      </div>
+
+      <button
+        id="roll_dice"
+        class="bg-blue-600 hover:bg-blue-700 transition-colors px-6 py-3 rounded-xl text-lg font-semibold"
+      >
+        Roll Dice
+      </button>
+      <div id="won_status" class="mt-6 text-center w-full max-w-3xl">
+      <p
+        id="won_status_text"
+        class="text-2xl font-bold text-green-400 bg-gray-700 px-6 py-4 rounded-xl inline-block shadow-lg w-full"
+      >
+        <!-- Status message goes here -->
+      </p>
+    </div>
+    </div>
+
+    
+  </body>
+
+  <script src="script.js"></script>
+</html>
