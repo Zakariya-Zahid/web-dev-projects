@@ -10,7 +10,8 @@ This folder contains mini projects built using **vanilla JavaScript** focused on
 - **SimpleDiceGame** – A two-player dice game with random number generation.
 - **Ecommerce Cart** – A basic Ecommerce cart Functionality.
 - **Ecommerce Cart Extended** – A basic Ecommerce cart Functionality but with more features and better UI.
-- **ExpenseTracker** – A basic EExpense Tracker App but to track your expenses and income.
+- **ExpenseTracker** – A basic Expense Tracker App but to track your expenses and income.
+- **QuizApp** – A basic Quiz App which allow you to select options from questions and evaluate the result.
 
 ## 🧠 Concepts Practiced
 
@@ -39,4 +40,5 @@ DOM_Events/<br>
 └── EcommerceCart/<br>
 └── Ecommerce_Cart_Extended/<br>
 └── ExpenseTracker/<br>
+└── QuizApp/<br>
 Each project includes its own `README.md` (optional) with more detailed usage and screenshots if available.
