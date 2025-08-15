@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange Rate App</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+      }
+
+      body {
+        background-color: #121212;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .exchange-container {
+        background-color: #1e1e1e;
+        padding: 2rem;
+        border-radius: 1rem;
+        width: 90%;
+        max-width: 400px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+      }
+
+      .exchange-container h1 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        color: #00e5ff;
+      }
+
+      .form-group {
+        margin-bottom: 1rem;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: #ccc;
+      }
+
+      select,
+      input {
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #2a2a2a;
+        color: #fff;
+      }
+
+      .convert-button {
+        width: 100%;
+        padding: 0.75rem;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: #00e5ff;
+        color: #000;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        margin-top: 1rem;
+      }
+
+      .convert-button:hover {
+        background-color: #00bcd4;
+      }
+
+      .result {
+        margin-top: 1.5rem;
+        text-align: center;
+        font-size: 1.25rem;
+        color: #76ff03;
+      }
+      .Error{
+        display: flex;
+        justify-content: center;
+        color:rgb(216, 79, 79);
+      }
+      .hidden{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="exchange-container">
+      <h1>Currency Converter</h1>
+
+      <div class="form-group">
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" placeholder="Enter amount" />
+      </div>
+
+      <div class="form-group">
+        <label for="from-currency">From Currency</label>
+        <select id="from-currency">
+          
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="to-currency">To Currency</label>
+        <select id="to-currency">
+          <option value="PKR">PKR - Pakistani Rupee</option>
+          <option value="USD">USD - US Dollar</option>
+          <option value="EUR">EUR - Euro</option>
+          <option value="JPY">JPY - Japanese Yen</option>
+        </select>
+      </div>
+
+      <button id="convert-button" class="convert-button">Convert</button>
+
+      <div id="result_exchange" class="result">
+        <!-- Placeholder for conversion result -->
+        <!-- 1 USD = 278.50 PKR -->
+         
+      </div>
+      <p id="errorMessage" class="Error hidden">Conversion Failed!</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
