@@ -29,7 +29,7 @@ Players roll dice, scores get updated automatically, and the first player to cro
 SimpleDiceGame/<br>
  ├── index.html<br>
  ├── script.js/<br>
- ├── readme.md/<br>
+ ├── readme.md<br>
 
 ---
 
