@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let Description = document.getElementById("description");
   let ErrorMessage = document.getElementById("error-message");
   let WeatherImage = document.getElementById("weather-img");
+
+  let API_Key = "your api key";
   const weatherImages = {
     "clear sky": "images/clearsky.png",
     "few clouds": "images/clouds.png",
@@ -32,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   async function FetchWeatherData(city) {
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${process.env.OPEN_WEATHER_API_KEY}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_Key}`;
 
     const response = await fetch(url);
     if (!response.ok) {
