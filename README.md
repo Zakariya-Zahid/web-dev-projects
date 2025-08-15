@@ -38,6 +38,7 @@ web-dev-projects/<br>
 - [Simple Dice Game](DOM_Events/SimpleDiceGame)
 - [EcommerceCart](DOM_Events/EcommerceCart)
 - [Ecommerce_Cart_Extended](DOM_Events/Ecommerce_Cart_Extended)
+- [ExpenseTracker](DOM_Events/ExpenseTracker)
 
 ### 🌐 Asynchronous
 - [Weather App](Asynchronous/WeatherApp)
