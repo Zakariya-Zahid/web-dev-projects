@@ -4,14 +4,13 @@ This folder contains mini projects built using **vanilla JavaScript** focused on
 
 ## 📂 Projects Included
 
-
 - **CalculatorApp** – A basic calculator performing standard arithmetic operations.
 - **NotesApp** – Create, edit, and delete notes using local storage.
 - **ToDoList** – Task manager with add/delete and mark-as-done features.
 - **SimpleDiceGame** – A two-player dice game with random number generation.
 - **Ecommerce Cart** – A basic Ecommerce cart Functionality.
 - **Ecommerce Cart Extended** – A basic Ecommerce cart Functionality but with more features and better UI.
-
+- **ExpenseTracker** – A basic EExpense Tracker App but to track your expenses and income.
 
 ## 🧠 Concepts Practiced
 
@@ -25,6 +24,7 @@ This folder contains mini projects built using **vanilla JavaScript** focused on
 ## 🚀 Getting Started
 
 To test any project:
+
 1. Navigate to the respective project folder.
 2. Open the `index.html` file in your browser.
 3. Interact with the UI as intended.
@@ -32,10 +32,10 @@ To test any project:
 ## 📁 Folder Structure
 
 DOM_Events/<br>
- ├── CalculatorApp/<br>
- ├── NotesApp/<br>
- ├── ToDoList/<br>
- └── SimpleDiceGame/<br>
- └── EcommerceCart/<br>
- └── Ecommerce_Cart_Extended/<br>
+├── CalculatorApp/<br>
+├── NotesApp/<br>
+├── ToDoList/<br>
+└── SimpleDiceGame/<br>
+└── EcommerceCart/<br>
+└── Ecommerce_Cart_Extended/<br>
 Each project includes its own `README.md` (optional) with more detailed usage and screenshots if available.
