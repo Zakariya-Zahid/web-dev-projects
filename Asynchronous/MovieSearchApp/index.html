@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎬 Movie Search App</h1>
+
+      <form class="search-form">
+        <input
+          id="search_input"
+          type="text"
+          placeholder="Enter movie title..."
+          class="search-input"
+        />
+        <button id="search_btn" type="submit" class="search-btn">Search</button>
+      </form>
+      <div id="error" class="hidden">
+        <p id="error_message" class="error"></p>
+      </div>
+      <div id="movie_card" class="movie-card hidden">
+        <img src="" alt="Movie Poster" id="movie_image" class="movie-poster" />
+        <div class="movie-details">
+          <h2 id="movie_title" class="movie-title"></h2>
+          <p class="movie-year">Year: <span id="movie_year"></span></p>
+          <p class="movie-rating">
+            IMDb Rating: <span id="movie_rating"></span>
+          </p>
+          <p class="movie-plot">Plot: <span id="movie_plot"></span></p>
+          <p class="movie_runtime">Runtime: <span id="movie_runtime"></span></p>
+          <p class="movie_country">Country: <span id="movie_country"></span></p>
+          <p class="movie_boxoffice">
+            Box Office: <span id="movie_boxoffice"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
