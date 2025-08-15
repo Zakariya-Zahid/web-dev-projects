@@ -35,9 +35,6 @@ web-dev-projects/<br>
 - [ToDo List](DOM_Events/ToDoList)
 - [Notes App](DOM_Events/NotesApp)
 - [Calculator App](DOM_Events/CalculatorApp)
-- [Book List Manager](DOM_Events/BookListManager)
-- [Daily Habit Tracker](DOM_Events/DailyHabitTracker)
-- [Basic Calendar Viewer](DOM_Events/BasicCalendarTaskViewer)
 - [Simple Dice Game](DOM_Events/SimpleDiceGame)
 
 ### 🌐 Asynchronous
