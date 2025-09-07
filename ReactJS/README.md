@@ -6,11 +6,11 @@ This folder contains a collection of **React.js** projects organized by category
 
 ## 📁 Folder Structure
 
-ReactJS/
-│
-├── learning-projects/ → Basic React concepts and learning exercises
-├── ui-components/ → Reusable UI components and context demos
-├── utility-apps/ → Practical utility applications
+ReactJS/<br>
+│<br>
+├── learning-projects/ → Basic React concepts and learning exercises<br>
+├── ui-components/ → Reusable UI components and context demos<br>
+├── utility-apps/ → Practical utility applications<br>
 └── web-apps/ → Full-featured web applications
 
 ---

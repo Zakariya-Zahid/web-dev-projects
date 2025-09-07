@@ -32,13 +32,13 @@ To test any project:
 
 ## 📁 Folder Structure
 
-DOM_Events/
-├── CalculatorApp/
-├── NotesApp/
-├── ToDoList/
-└── SimpleDiceGame/
-└── EcommerceCart/
-└── Ecommerce_Cart_Extended/
-└── ExpenseTracker/
-└── QuizApp/
+DOM_Events/<br>
+├── CalculatorApp/<br>
+├── NotesApp/<br>
+├── ToDoList/<br>
+├── SimpleDiceGame/<br>
+├── EcommerceCart/<br>
+├── Ecommerce_Cart_Extended/<br>
+├── ExpenseTracker/<br>
+└── QuizApp/<br>
 Each project includes its own `README.md` (optional) with more detailed usage and screenshots if available.

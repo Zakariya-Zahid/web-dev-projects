@@ -7,12 +7,12 @@ All projects are built using **HTML**, **CSS**, and **Vanilla JavaScript** with 
 
 ## 📁 Folder Structure
 
-Asynchronous/
-├── WeatherApp/ → Real-time weather information using a weather API
-├── MovieSearchApp/ → Search movies using an external movie database API
-├── CurrencyExchangeApp/ → Convert currencies dynamically via a currency API
-├── GithubProfileFinder/ → Find and display GitHub user profiles using GitHub API
-└── DictionaryApp/ → Lookup words and definitions using a dictionary API
+Asynchronous/<br>
+├── WeatherApp/ → Real-time weather information using a weather API<br>
+├── MovieSearchApp/ → Search movies using an external movie database API<br>
+├── CurrencyExchangeApp/ → Convert currencies dynamically via a currency API<br>
+├── GithubProfileFinder/ → Find and display GitHub user profiles using GitHub API<br>
+└── DictionaryApp/ → Lookup words and definitions using a dictionary API<br>
 
 
 ---
