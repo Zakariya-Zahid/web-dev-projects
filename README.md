@@ -11,7 +11,7 @@ web-dev-projects/<br>
 │<br>
 ├── DOM_Events/ → Projects based on DOM manipulation and event handling<br>
 ├── Asynchronous/ → Projects using asynchronous JS (APIs, fetch, etc.)<br>
-├── React/ → React-based mini apps (coming soon)<br>
+├── ReactJS/ → React-based applications and components<br>
 ├── Auth/ → Authentication examples (coming soon)<br>
 └── Backend/ → Node.js / Express-based apps (coming soon)
 
@@ -48,6 +48,12 @@ web-dev-projects/<br>
 - [Currency Exchange App](Asynchronous/CurrencyExchangeApp)
 - [GitHub Profile Finder](Asynchronous/GithubProfileFinder)
 - [Dictionary App](Asynchronous/DictionaryApp)
+
+### ⚛️ ReactJS
+- [Learning Projects](ReactJS/learning-projects) - Basic React concepts and patterns
+- [UI Components](ReactJS/ui-components) - Context API and reusable components
+- [Utility Apps](ReactJS/utility-apps) - Practical React applications
+- [Web Apps](ReactJS/web-apps) - Full-featured React applications
 
 ---
 
